@@ -1,0 +1,61 @@
+body{
+    z-index: -1;
+    background: #ddd;
+}
+.main-layout{
+    width: 30%;
+    float:right;
+    background: #fff;
+    padding: 20px;
+    z-index:1;
+    display: grid;
+    height: 100vh;
+}
+.form-element{
+    padding:10px;
+    display: grid;
+   
+}
+.form-element input{
+    padding:10px
+}
+.sign-up-button{
+    color: #fff;
+    padding: 8px 20px;
+    background: #242424;
+    border: 1px solid #242424;
+    transition: all 0.3s ease-out;
+}
+.sign-up-button:hover{
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+    cursor: pointer;
+}
+.show-data{
+    display: inline-block;
+    padding: 5px;
+}
+header{
+    display: flex;
+}
+.close-btn{
+    float: left;
+    width: 30%;
+    padding: 25px;
+    padding-top: 50px;
+   
+}
+.sign-up-header{
+    font-size: 10px;display: inline-block;
+}
+.sign-up-icon{
+    background-image: url('./food-logo.jpg');
+    height: 144px;
+    width: 38%;
+    float: right;
+    right: 0;
+    background-size: 144px;
+}
+
